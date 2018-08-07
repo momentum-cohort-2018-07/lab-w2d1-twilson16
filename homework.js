@@ -111,24 +111,3 @@
     }
 
 
-
-
-
-// var year = 1966
-// var age = 2018 - "year"
-
-// function getAge (age) {
-//   console.log("I am" + " " + "years old")
-// }
-
-// getAge ("1966");
-
-
-// function myAge (birthyear) {
-//   console.log ("You are " + (2018 - "birthyear"));
-// }
-
-//   function getAge(year) {
-//     age= (new Date()).getFullYear()-year;
-//     console.log(age);
-//   }
