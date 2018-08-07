@@ -79,9 +79,56 @@
 // eo - Saluton, <name>!
 //
 // If any other language code is used, return nothing.
+       var en = "Hello, " 
+       var es = "¡Hola, "
+       var fr = "Bonjour, "
+       var eo = "Saluton, "
+    
+       function multigreeting (name, language) {
+           if (language === "en") {return "Hello, " + name + "!"}
+           else if (language === "es") {return "¡Hola, " + name + "!"}
+           else if (language === "fr") {return "Bonjour, " + name + "!"}
+           else if (language === "eo") {return "Saluton, " + name + "!"}
+           else {return undefined}
+       }
+
 
 // 10. Create a function, howOld, that takes a birthdate and a another
 // date (the "current date") and returns how many years old the person
 // with that birthdate was on that date. The dates should be JavaScript
 // Date objects.
 // If the birth date is after than the current date, return nothing.
+    var birthDate = new date.getMonth()
+    var currentDate = today.getMonth()
+    var age =  currentDate - birthDate
+
+
+
+    function howOld (birthDate, currentDate) {
+        if (currentDate >= birthDate) {
+          return age
+    }    else {return undefined}
+    }
+
+
+
+
+
+// var year = 1966
+// var age = 2018 - "year"
+
+// function getAge (age) {
+//   console.log("I am" + " " + "years old")
+// }
+
+// getAge ("1966");
+
+
+// function myAge (birthyear) {
+//   console.log ("You are " + (2018 - "birthyear"));
+// }
+
+//   function getAge(year) {
+//     age= (new Date()).getFullYear()-year;
+//     console.log(age);
+//   }
